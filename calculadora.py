@@ -1,5 +1,6 @@
 import tkinter as tk
 import math
+
 import sys
 import os
 
@@ -60,7 +61,7 @@ class Calculadora:
     def criarbotoes(self):  # Função de criação e iterações de botões.
         self.botoes = [
             ["√", "x²", "**", "(", ")", "/", "↑"],
-            ["sin", "cos", "tan", "7", "8", "9", "+"],
+            ["sin", "cos", "7", "8", "9", "+", ""],
             ["arcsin", "arccos", "4", "5", "6", "-", "↓"],
             ["tan", "arctan", "1", "2", "3", "*", " "],
             ["n!", "π", ".", "0", "=", "C", " "]
@@ -124,14 +125,14 @@ class Calculadora:
 
                 elif texto == "cos":
                     try:
-                        self.addValor(math.sin(float(self.output.get())) * deg)
+                        self.addValor(math.cos(float(self.output.get())) * deg)
                     except ValueError as e:
                         self.output.delete(0, 'end')
                         self.output.insert('end', 'MATH ERROR')
 
                 elif texto == "tan":
                     try:
-                        self.addValor(math.sin(float(self.output.get())) * deg)
+                        self.addValor(math.tan(float(self.output.get())) * deg)
                     except ValueError as e:
                         self.output.delete(0, 'end')
                         self.output.insert('end', 'MATH ERROR')
@@ -139,7 +140,7 @@ class Calculadora:
                 elif texto == "arcsin":
                     try:
                         self.addValor(
-                            math.sin(float(self.output.get())) * inversa_deg)
+                            math.asin(float(self.output.get())) * inversa_deg)
                     except ValueError as e:
                         self.output.delete(0, 'end')
                         self.output.insert('end', 'MATH ERROR')
@@ -147,7 +148,7 @@ class Calculadora:
                 elif texto == "arccos":
                     try:
                         self.addValor(
-                            math.sin(float(self.output.get())) * inversa_deg)
+                            math.acos(float(self.output.get())) * inversa_deg)
                     except ValueError as e:
                         self.output.delete(0, 'end')
                         self.output.insert('end', 'MATH ERROR')
@@ -155,7 +156,7 @@ class Calculadora:
                 elif texto == "arctan":
                     try:
                         self.addValor(
-                            math.sin(float(self.output.get())) * inversa_deg)
+                            math.atan(float(self.output.get())) * inversa_deg)
                     except ValueError as e:
                         self.output.delete(0, 'end')
                         self.output.insert('end', 'MATH ERROR')
