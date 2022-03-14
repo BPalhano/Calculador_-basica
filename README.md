@@ -22,13 +22,13 @@
 
 <pre>
   <code>
-    import sys
-    import os
+  import sys
+  import os
 
-    dirpath = os.getcwd()
-    sys.path.append(dirpath)
+  dirpath = os.getcwd()
+  sys.path.append(dirpath)
 
-    if getattr(sys, "frozen", False):
-        os.chdir(sys._MEIPASS) 
+  if getattr(sys, "frozen", False):
+    os.chdir(sys._MEIPASS) 
   </code>
 </pre>
