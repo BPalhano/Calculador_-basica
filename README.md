@@ -16,7 +16,7 @@
 
 <p>
   Para criar um executável utilizei a biblioteca sys e os, para criar um arquivo específico na pasta de <br>
-  de trabalho do código, e seguindo o tutorial deste <a href=https://youtu.be/eNEvnMOnSFg>link</a> consegui criar um
+  de trabalho do código, e seguindo o tutorial deste <a href=https://youtu.be/eNEvnMOnSFg><code>link</code></a> consegui criar um
   executável <code>.exe</code> . Segue o exemplo.
 </p>
 
