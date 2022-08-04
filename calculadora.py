@@ -14,10 +14,10 @@ if getattr(sys, "frozen", False):
 # Map do layout dos botões.
 botao_config = {
 
-    "bg": "#242742",
+    "bg": "#242743",
     "fg": "#808080",
     "font": ("Consolas bold", 12),
-    "height": "2",
+    "height": "12",
     "width": "7",
     "relief": "flat",
     "activebackground": "#313454"
