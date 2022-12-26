@@ -1,15 +1,15 @@
-<h1> Calculadora com interface gráfica em Python. </h1>
+<h1 style="color:RGB(153,0,255)"><b>Calculadora com interface gráfica em Python.</b></h1>
 
 <p>Calculadora desenvolvida em python 3.8.5, por meio da biblioteca tkinter e math, foi utilizado<br>
   Programação Orientado a Objeto, no intuito de exercitar o mesmo. </p>
   
 <h2> Objetivos futuros: </h2>
-
-<p> - Retomar o código e melhorar a usabilidade do mesmo. <br>
-    - Melhorar a estrutura e velocidade de processamento.<br>
-    - Criar um icon para área de trabalho para a calculadora. <br>
-    - Implementar outras função na calculadora.<br>
-</p>
+<ul> 
+  <li>Retomar o código e melhorar a usabilidade do mesmo.</li>
+  <li>Melhorar a estrutura e velocidade de processamento.</li>
+  <li>Criar um icon para área de trabalho para a calculadora.</li>
+  <li>Implementar outras função na calculadora.</li>
+</ul>
 
 
 <h2> Observações: </h2>
