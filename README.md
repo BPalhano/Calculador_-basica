@@ -1,5 +1,7 @@
-<h1 style="color:RGB(153,0,255)"><b>Calculadora com interface gráfica em Python.</b></h1>
-
+<span style="color:blue;">
+  <h1><b>Calculadora com interface gráfica em Python.</b></h1>
+</span>
+  
 <p>Calculadora desenvolvida em python 3.8.5, por meio da biblioteca tkinter e math, foi utilizado<br>
   Programação Orientado a Objeto, no intuito de exercitar o mesmo. </p>
   
